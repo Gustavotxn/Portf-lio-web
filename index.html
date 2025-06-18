@@ -1,51 +1,93 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Estrutura Básica de HTML</title>
-</head>
+
+
 <body>
 
-    <!-- O <header> é usado para conter informações introdutórias ou de navegação -->
-    <header>
-        <h1>Bem-vindo ao Meu portflio</h1>
-        <!-- A tag <nav> é usada para conter links de navegação -->
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+
+    <div class="background"></div>
+
+    <header class="header">
+        <img src="ff752dc4-5cdd-4e5c-9a7d-20477efec18b.jpeg" alt="Logo" class="logo">
+        <h2>Bem vindo ao meu portfólio</h2>
+        <nav class="nav">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
 
-    <!-- A tag <main> é usada para conter o conteúdo principal do documento -->
     <main>
-        <!-- A tag <article> é usada para conter conteúdo independente e autônomo -->
-        <article id="home">
-            <h2>Home</h2>
-            <p>Este é o conteúdo da página inicial.</p>
-        </article>
-
-        <!-- A tag <section> é usada para agrupar conteúdo relacionado -->
-        <section id="sobre">
-            <h2>Sobre</h2>
-            <p>Informações sobre o site ou o autor.</p>
+        <section class="section" id="inicio">
+            <h3>Meus Projetos</h3>
+            <div class="projetos">
+                <div class="card">
+                    <h4>Currículo HTML</h4>
+                    <p>Projeto de currículo pessoal com HTML e CSS simples.</p>
+                    <a href="https://github.com/Gustavotxn/introducaoWebsite.git" target="_blank"> Ver no GitHub</a>
+                </div>
+                <div class="card">
+                    <h4>Exercícios de Lógica</h4>
+                    <p>Resolução de exercícios lógicos com Java e Git.</p>
+                    <a href="https://github.com/Gustavotxn/exercicios-logicaJava.git" target="_blank"> Ver no GitHub</a>
+                </div>
+            
         </section>
 
-        <!-- Outra <article> para diferenciar conteúdo autônomo -->
-        <article id="contato">
-            <h2>Contato</h2>
-            <p>Informações de contato.</p>
-        </article>
+        <section class="section" id="sobre">
+            <h3>Sobre Mim</h3>
+            <div class="sobre">
+                <aside class="curriculo">
+                    <h4>Currículo</h4>
+                    <p><strong>Nome:</strong> Gustavo Nunes</p>
+                    <p><strong>Formação:</strong> Estou terminando o Ensino Médio e  cursando TI na ULBRA.</p>
+                    <p><strong>Experiência:</strong> Java, HTML e CSS.</p>
+
+                    <div class="logotipo">
+                    <img alig="center" alt="-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+                    <img alig ="center" alt="-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+                    
+                    </div>
+                </aside>
+                <aside class="objetivos">
+                    <h4>Objetivos:</h4>
+                    <p>Desejo atuar na area do CSS e html.</p>
+                </aside>
+            </div>
+        </section>
     </main>
 
-    <!-- O <footer> é usado para conter informações de rodapé do documento -->
-    <footer>
-        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    <footer class="footer" id="contato">
+         <h3>Contatos: </h3>
+        <p>E-mail: guhds320@gmail.com</p>
+        <p>Telefone: (51) 995556178</p>
+        <br>
+        <div class="redes">
+            <h3>Clique nas imagens para acessar GitHub ou LinkedIn: </h3>
+
+             <a href="https://github.com/Gustavotxn" target="_blank"><i class="fab fa-github"></i><img  src="https://images.app.goo.gl/2F2UE8GJ58PBnvD86"target="_blank"></a>
+                 
+                   
+             <a href="https://www.linkedin.com/in/gustavo-teixeira-67abb5368/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+                       
+                        <a href = "https://mail.google.com/mail/u/1/#inbox"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+
+              <a href="https://www.instagram.com/teixeira.07___?igsh=dW45NmJpcXdoaTgy&utm_source=qr" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+            </section>
+        </div>
     </footer>
+    <div class="copy">
+        <footer>
+        &copy; 2025 Meu Site. Todos os direitos reservados para Gustavo Nunes.
+    </footer>
+    </div>
+   
 
 </body>
+
 </html>
