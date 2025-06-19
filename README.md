@@ -11,7 +11,7 @@ Este é meu portfólio pessoal feito com HTML e CSS.
 - CSS3
 
 ## Como visualizar
-https://gustavotxn.github.io/Portf-lio-web/# Portfólio Web
+https://gustavotxn.github.io/Portf-lio-web/
 
 ## Autor
 Gustavotxn-@Gustavotxn
