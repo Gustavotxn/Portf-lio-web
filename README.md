@@ -4,11 +4,11 @@ Este é meu portfólio pessoal feito com HTML e CSS
 
 Este é meu projeto de portfólio :
 
-• Meus projetos
-• Currículo
-• Um pouco sobre mim
-• Experiência
-• Formas de contato
+- • Meus projetos
+- • Currículo
+- • Um pouco sobre mim
+- • Experiência
+- • Formas de contato
 
 
 ## Tecnologias
