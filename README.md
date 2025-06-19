@@ -2,11 +2,14 @@
 
 Este é meu portfólio pessoal feito com HTML e CSS
 
+Este é meu projeto de portfólio :
 
-•meus projetos
-•currículo
-•Especialidades
+•Meus projetos
+•Currículo
+•Um pouco sobre mim
+•Experiência
 •formas de contato
+
 
 ## Tecnologias
 - HTML5
