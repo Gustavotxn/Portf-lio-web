@@ -1,3 +1,14 @@
+header {
+  background-color: rgba(0, 0, 60, 0.85);
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;    
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
 
 * {
   margin: 0;
@@ -7,8 +18,8 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #100020;
-  color: #fff;
+  background-color: #001f3f; 
+  color: #ffffff; 
   line-height: 1.6;
 }
 
@@ -16,7 +27,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
 
 .background {
   background-image: url('caminho/da/sua-imagem.jpg'); 
@@ -26,12 +36,11 @@ a {
   position: fixed;
   top: 0; left: 0; width: 100%; height: 100%;
   z-index: -1;
-  filter: brightness(0.4);
+  filter: brightness(0.3);
 }
 
-
 header {
-  background-color: rgba(30, 0, 60, 0.8);
+  background-color: rgba(0, 0, 60, 0.85);
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
@@ -44,20 +53,19 @@ header {
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #1e0844;
+  color: #b3cfff;
 }
 
 nav a {
   margin-left: 25px;
   font-weight: bold;
-  color: #fff;
+  color: #ffffff;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #5d00ff;
+  color: #66ccff;
 }
-
 
 section {
   max-width: 1000px;
@@ -65,22 +73,20 @@ section {
   padding: 40px 20px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 section h2 {
   text-align: center;
   font-size: 28px;
-  color: #b388ff;
+  color: #66ccff;
   margin-bottom: 30px;
 }
-
 
 .sobre p {
   font-size: 18px;
   text-align: center;
 }
-
 
 .projetos {
   display: flex;
@@ -91,8 +97,8 @@ section h2 {
 }
 
 .card {
-  background-color: #2d0d5a;
-  border: 2px solid #7c4dff;
+  background-color: #003366; /* Azul escuro */
+  border: 2px solid #66ccff; /* Azul claro */
   border-radius: 15px;
   width: 280px;
   padding: 25px;
@@ -106,7 +112,7 @@ section h2 {
 }
 
 .card h4 {
-  color: #b388ff;
+  color: #66ccff;
   margin-bottom: 10px;
 }
 
@@ -118,29 +124,28 @@ section h2 {
 .card a {
   display: inline-block;
   padding: 8px 15px;
-  background-color: #b388ff;
-  color: #100020;
+  background-color: #66ccff;
+  color: #001f3f;
   font-weight: bold;
   border-radius: 5px;
   transition: background 0.3s;
 }
 
 .card a:hover {
-  background-color: #7c4dff;
+  background-color: #3399ff;
   color: #fff;
 }
-
 
 footer {
   text-align: center;
   padding: 20px;
-  color: #ccc;
+  color: #cccccc;
   font-size: 14px;
   margin-top: 60px;
 }
 
-
-@media (max-width: 768px) {}
+/* Responsivo */
+@media (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -163,28 +168,31 @@ footer {
   .card {
     width: 90%;
   }
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
 }
 
-/* Foto de perfil fixa no canto */
-.foto-canto {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
+
+
+
+
+
+.foto-perfil {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  border: 3px solid white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  object-fit: cover;
+  top: 15px;
+  left: 15px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid black;
+  object-fit: cover;          
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   z-index: 1000;
-  transition: transform 0.3s;
 }
 
-.foto-canto:hover {
+.foto-perfil:hover {
   transform: scale(1.05);
-  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
+
+
+
