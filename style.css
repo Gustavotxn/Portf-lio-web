@@ -1,4 +1,4 @@
-/* Reset e base */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,9 +17,9 @@ a {
   color: inherit;
 }
 
-/* Fundo com imagem */
+
 .background {
-  background-image: url('caminho/da/sua-imagem.jpg'); /* Altere para seu caminho */
+  background-image: url('caminho/da/sua-imagem.jpg'); 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -29,7 +29,7 @@ a {
   filter: brightness(0.4);
 }
 
-/* Cabeçalho */
+
 header {
   background-color: rgba(30, 0, 60, 0.8);
   padding: 20px 40px;
@@ -58,7 +58,7 @@ nav a:hover {
   color: #5d00ff;
 }
 
-/* Seções */
+
 section {
   max-width: 1000px;
   margin: 60px auto;
@@ -75,13 +75,13 @@ section h2 {
   margin-bottom: 30px;
 }
 
-/* Sobre */
+
 .sobre p {
   font-size: 18px;
   text-align: center;
 }
 
-/* Projetos */
+
 .projetos {
   display: flex;
   flex-wrap: wrap;
@@ -130,7 +130,7 @@ section h2 {
   color: #fff;
 }
 
-/* Rodapé */
+
 footer {
   text-align: center;
   padding: 20px;
@@ -139,8 +139,8 @@ footer {
   margin-top: 60px;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
+
+@media (max-width: 768px) {}
   header {
     flex-direction: column;
     align-items: center;
@@ -163,4 +163,28 @@ footer {
   .card {
     width: 90%;
   }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Foto de perfil fixa no canto */
+.foto-canto {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 3px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+  z-index: 1000;
+  transition: transform 0.3s;
+}
+
+.foto-canto:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
