@@ -16,7 +16,7 @@ Este é meu projeto de portfólio :
 - CSS3
 
 ## Como visualizar
-https://gustavotxn.github.io/Portf-lio-web/
+ https://gustavotxn.github.io/Portf-lio-web/
 
 ## Autor
 Gustavotxn-@Gustavotxn
