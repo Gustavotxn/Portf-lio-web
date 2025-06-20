@@ -73,7 +73,7 @@ section {
   padding: 40px 20px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px  rgba(0, 0, 0, 0.4);
 }
 
 section h2 {
@@ -97,7 +97,7 @@ section h2 {
 }
 
 .card {
-  background-color: #003366; /* Azul escuro */
+  background-color: #003366;
   border: 2px solid #66ccff; /* Azul claro */
   border-radius: 15px;
   width: 280px;
@@ -144,7 +144,7 @@ footer {
   margin-top: 60px;
 }
 
-
+/* Responsivo */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
