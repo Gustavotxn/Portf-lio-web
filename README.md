@@ -19,4 +19,4 @@ Este é meu projeto de portfólio :
  https://gustavotxn.github.io/Portf-lio-web/
 
 ## Autor
-Gustavotxn-@Gustavotxn
+Gustavotxn-https://github.com/Gustavotxn
